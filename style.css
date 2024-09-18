@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white : rgb(246, 243, 243) ;
+    --brown : rgb(137, 93, 5) ;
+}
+/* navbar */
+.baslik{
+    color: var(--brown);
+    position: relative;
+    left: 6px;
+    top: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bannerNav{
+    background-color: var(--white);
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 875px;
+    bottom: 14px;
+    
+}
+.navbtn{
+    color: var(--brown);
+    text-decoration: none;
+    padding: 15px 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s ease;
+}
+.navbtn:hover{
+    background-color: var(--brown);
+    color: var(--white);
+    transform: scale(1.1);
+}
+#brownbtn{
+    background-color: var(--brown);
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 15px 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s ease;
+}
+#brownbtn:hover{
+    background-color: darkgrey;
+    transform: scale(1.1);
+}
+/* end navbar */
+/* header */
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)) , url("./photo/photo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.banner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-320px , -70px);
+}
+.subtitle{
+    font-size: 1rem;
+    margin: 10px;
+    color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title{
+    font-size: 2.5rem;
+    margin: 10px;
+    color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prgh{
+    font-size: 0.9rem;
+    color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+}
+.readMore{
+    position: relative;
+    top: 40px;
+    right: 5px;
+    text-decoration: none;
+    background-color: var(--brown);
+    padding: 20px 25px;
+    color: var(--white);
+    transition: 1s ease;
+}
+.readMore:hover{
+    background-color: darkgrey;
+    color: var(--brown);
+    transform: scale(1.1);
+}
+.bannerButton{
+    position: relative;
+    top: 40px;
+    left: 5px;
+    text-decoration: none;
+    background-color: var(--white);
+    padding: 20px 25px;
+    color: black;
+    transition: 1s ease;
+}
+.bannerButton:hover{
+    background-color: darkgrey;
+    color: var(--white);
+    transform: scale(1.1);
+}
+/* end header */
+/* section */
+.tools{
+    min-height: 30vh;
+    background-color: white;
+}
+.user{
+    font-size: 25px;
+    background-color: var(--white);
+    padding: 5px 5px;
+    position: relative;
+    bottom: 15px;
+}
+.tool1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 900px;
+}
+.one{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.1;
+    position: absolute;
+    left: 250px;
+    top: 870px;
+}
+.check{
+    font-size: 25px;
+    background-color: var(--white);
+    padding: 5px 5px;
+    position: relative;
+    bottom: 15px;
+}
+.tool2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 900px;
+}
+.two{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.1;
+    position: absolute;
+    left: 650px;
+    top: 870px;
+}
+.Atool{
+    font-size: 25px;
+    background-color: var(--white);
+    padding: 5px 5px;
+    position: relative;
+    bottom: 15px;
+}
+.tool3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 900px;
+    top: 900px;
+}
+.three{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.1;
+    position: absolute;
+    left: 1050px;
+    top: 870px;
+}
+.headphones{
+    font-size: 25px;
+    background-color: var(--white);
+    padding: 5px 5px;
+    position: relative;
+    bottom: 15px;
+}
+.tool4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 1300px;
+    top: 900px;
+}
+.four{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.1;
+    position: absolute;
+    left: 1440px;
+    top: 870px;
+}
+/* end section */
+/* about */
+    .about{
+        height: 75vh;
+        background-color: var(--white);
+    }
+    .aboutPhoto{
+        height: 75vh;
+        width: 50vw;
+    }
+    .aboutUs{
+        position: absolute;
+        left: 850px;
+        top: 1150px;
+    }
+    .aboutHead{
+        font-size: 2.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom: 15px;
+    }
+    .aboutPrgh{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.6;
+
+    }
+    .group{
+        font-size: 20px;
+        background-color: white;
+        padding: 15px 15px;
+        position: relative;
+        top: 20px;
+    }
+    .firstNum{
+        color: var(--brown);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.7rem;
+        position: relative;
+        left: 70px;
+        bottom: 30px;
+    }
+    #kucuk1{
+        opacity: 0.6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 70px;
+        bottom: 25px;
+    }
+    .aboutCheck{
+        font-size: 20px;
+        background-color: white;
+        padding: 15px 15px;
+        position: relative;
+        left: 230px;
+        bottom: 75px;
+    }
+    .secondNum{
+        color: var(--brown);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.7rem;
+        position: relative;
+        left: 300px;
+        bottom: 125px; 
+    }
+    #kucuk2{
+        opacity: 0.6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 300px;
+        bottom: 120px;
+    }
+    .aboutBtn{
+        text-decoration: none;
+        color: var(--white);
+        background-color: var(--brown);
+        padding: 15px 25px;
+        position: relative;
+        bottom: 70px;
+        cursor: pointer;
+        transition: 1s ease;
+
+    }
+    .aboutBtn:hover{
+        background-color: darkgrey;
+        color: var(--brown);
+        transform: scale(1.1);
+    }
+/* end about */
+/* service */
+    .service{
+        min-height: 100vh;
+    }
+    .serviceHead{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.3rem;
+        position: relative;
+        top: 25px;
+    }
+    .box{
+        height: 250px;
+        width: 230px;
+        border: 3px solid rgba(128, 128, 128, 0.469);
+        display: inline-block;
+        transition: 1s ease;
+        cursor: pointer;
+    }
+    .box:hover{
+        transform: scale(1.1);
+    }
+    .service1{
+        position:absolute;
+        left: 300px;
+        top: 1650px;
+    }
+    
+    .service2{
+        position:absolute;
+        left: 650px;
+        top: 1650px;
+    }
+    .service3{
+        position:absolute;
+        left: 1000px;
+        top: 1650px;
+    }
+    .service4{
+        position:absolute;
+        left: 300px;
+        top: 1920px;
+    }
+    .service5{
+        position:absolute;
+        left: 650px;
+        top: 1920px;
+    }
+    .service6{
+        position:absolute;
+        left: 1000px;
+        top: 1920px;
+    }
+    .servicePhoto{
+        width: 226px;  
+    }
+    .boxHead{
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .boxPrgh{
+        text-align: center;
+        font-size: 12px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        position: relative;
+        top: 10px;
+        opacity: 0.6;
+    }
+    .boxBtn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color: var(--brown);
+        position: relative;
+        left: 65px;
+        top: 20px;
+    }
+    .boxBtn:hover{
+        color: darkgray;
+    }
+    
+/* end service */
+
+/* choose */
+    .choose{
+        height: 75vh;
+        background-color: var(--white);
+    }
+    .chooseUs{
+        
+        position: relative;
+        left: 150px;
+        top: 170px;
+    }
+    .choosePhoto{
+        height: 75vh;
+        width: 50vw;
+        position: absolute;
+        left: 50%;
+        top: 2273px;
+    }
+    .chooseHead{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5rem;
+    }
+    .choosePrgh{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.6;
+    }
+    .chooseCheck{
+        background-color: white;
+        padding: 10px 10px;
+        position: relative;
+        top: 20px;
+    }
+    .comment1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.3;
+        position: relative;
+        left: 50px;
+        bottom: 18px;
+    }
+    .kucukChoose1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 50px;
+        bottom: 10px;
+    }
+    .Achoose{
+        background-color: white;
+        padding: 10px 10px;
+    }
+    .comment2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.3;
+        position: relative;
+        left: 50px;
+        bottom: 35px;
+    }
+    .kucukChoose2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 50px;
+        bottom: 30px;
+    }
+    .chooseUser{
+        background-color: white;
+        padding: 10px 10px; 
+        position: relative;
+        left: 200px;
+        bottom: 120px;
+    }
+    .comment3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.3;
+        position: relative;
+        left: 250px;
+        bottom: 155px;
+    }
+    .kucukChoose3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 250px;
+        bottom: 150px;
+    }
+    .chooseHeadphones{
+        background-color: white;
+        padding: 10px 10px; 
+        position: relative;
+        left: 200px;
+        bottom: 140px;
+    }
+    .comment4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 0.3;
+        position: relative;
+        left: 250px;
+        bottom: 175px;
+    }
+    .kucukChoose4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 250px;
+        bottom: 170px;
+    }
+/* end choose */
+    .backG{
+        background-color: white;
+        height: 75px;
+    }
+/* contact */
+    .contact{
+        height: 75vh;
+        background-color: var(--white);
+    }
+    .contactPhoto{
+        height: 75vh;
+        width: 50vw;
+    }
+    .contactHead{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5rem;
+        position: absolute;
+        left: 800px;
+        top: 2950px;
+        
+    }
+    .contactPrgh{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        left: 800px;
+        top: 3020px;
+        opacity: 0.5;
+    }
+    .name{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 60px;
+        border: 0px;
+        position: absolute;
+        left: 800px;
+        top: 3100px;
+    }
+    .email{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 60px;
+        border: 0px;
+        position: absolute;
+        left: 1080px;
+        top: 3100px;
+    }
+    .mobile{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 60px;
+        border: 0px;
+        position: absolute;
+        left: 800px;
+        top: 3160px;
+    }
+    .select{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 50px;
+        border: 0px;
+        position: absolute;
+        left: 1080px;
+        top: 3160px;
+    }
+    .text{
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 200px;
+        border: 0px;
+        position: absolute;
+        left: 800px;
+        top: 3220px;
+    }
+    .send{
+        background-color: var(--brown);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 253px;
+        color: var(--white);
+        position: absolute;
+        left: 800px;
+        top: 3300px;
+        border: 0px;
+        cursor: pointer;
+        transition: 1s ease;
+    }
+    .send:hover{
+        background-color: darkgrey;
+        color: var(--brown);
+        transform: scale(1.1);
+    }
+
+
+/* end contact */
+/* footer */
+.footer{
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 10px;
+
+}
+/* end footer */
+.homeClick{
+    background-color: var(--brown);
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+
